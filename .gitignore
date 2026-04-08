@@ -1,0 +1,39 @@
+# Virtualenv
+.venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.ty_cache/
+.mypy_cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Runtime / scratch
+_data/
+_tmp/
+
+# IDE
+.cursor/
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
